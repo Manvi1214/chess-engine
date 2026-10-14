@@ -1,0 +1,41 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Local editor/system files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.tmp
+
+# Python build/cache artifacts
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+
+# Logs and runtime dumps
+*.log
+
+# Match/analysis generated files
+*.epd
+*.pgn
+ordo_*.txt
+ordo_*.csv
+elo_*.pgn
+selfplay_*.pgn
+Result*/
+
+# Local engine binaries and downloaded tools
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Keep source control focused on engine code, not downloaded archives
+*.zip
+*.7z
+
